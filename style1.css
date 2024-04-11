@@ -10,8 +10,16 @@ h1{
     font-size: 50px;
 }
 input{
-    width: 800px; /*largor*/
-    height: 200px;  /* altura*/
+    width: 500px; /*largor*/
+    height: 80px;  /* altura*/
+    
+}
+button{
+    background-color: #b1b8d8;
+    transition: transform 20ms ease-in
+}
+button:hover {
+    box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.5);/*para poner sombra*/
 }
 
 /* Puedes agregar más estilos CSS según tus necesidades */
